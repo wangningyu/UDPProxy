@@ -2,7 +2,6 @@
 
 #include "StdAfx.h"
 #include "OPini.h" 
-#include "XorStr.h"
 
 COPini::COPini()
 {

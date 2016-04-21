@@ -232,6 +232,7 @@ void MTShutDownValveServer()
 	}
 	g_ClientList.clear();
 	DeleteCriticalSection(&g_criLockGateWayList);
+	DeleteCriticalSection(&g_criLockWhiteIPList);
 }
 
 /************************************************************************/
